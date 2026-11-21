@@ -1,0 +1,44 @@
+# client-info GraphQL schema
+# Equivalent to REST:
+#   GET /clients/{id}            → Client { id, name, age }
+#   GET /clients/{id}/documents  → [Document]
+#   GET /clients/{id}/relatives  → [Relative]
+#
+# Nested Client fields let clients fetch only needed data in one query.
+
+"""Client profile from client-info service."""
+type Client {
+  id: ID!
+  name: String!
+  age: Int
+  """Identity and other documents for the client (REST: GET /clients/{id}/documents)."""
+  documents: [Document!]
+  """Family / related persons (REST: GET /clients/{id}/relatives)."""
+  relatives: [Relative!]
+}
+
+"""Document associated with a client."""
+type Document {
+  id: ID!
+  type: String!
+  number: String!
+  issueDate: String
+  expiryDate: String
+}
+
+"""Relative of a client."""
+type Relative {
+  id: ID!
+  relationType: String!
+  name: String!
+  age: Int
+}
+
+type Query {
+  """
+  Fetch a client by id.
+  Nested fields documents / relatives replace separate REST list endpoints;
+  omit them in the selection set to avoid loading unused data.
+  """
+  client(id: ID!): Client
+}

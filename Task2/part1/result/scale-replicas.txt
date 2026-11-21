@@ -1,0 +1,50 @@
+=== MEMORY HPA EVIDENCE 2026-11-13T06:20:15Z ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   5/5     5            5           22m
+NAME                            READY   STATUS    RESTARTS   AGE     IP            NODE       NOMINATED NODE   READINESS GATES
+scaletestapp-786c86645f-4gkd5   1/1     Running   0          4m23s   10.244.0.41   minikube   <none>           <none>
+scaletestapp-786c86645f-79ts4   1/1     Running   0          5m23s   10.244.0.40   minikube   <none>           <none>
+scaletestapp-786c86645f-8lvkp   1/1     Running   0          2m23s   10.244.0.43   minikube   <none>           <none>
+scaletestapp-786c86645f-lnt2x   1/1     Running   0          7m59s   10.244.0.39   minikube   <none>           <none>
+scaletestapp-786c86645f-vx4cl   1/1     Running   0          2m23s   10.244.0.42   minikube   <none>           <none>
+NAME                  REFERENCE                 TARGETS           MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-memory   Deployment/scaletestapp   memory: 82%/80%   1         10        5          22m
+Name:                                                     scaletestapp-memory
+Namespace:                                                default
+Labels:                                                   <none>
+Annotations:                                              <none>
+CreationTimestamp:                                        Fri, 13 Nov 2026 08:57:36 +0300
+Reference:                                                Deployment/scaletestapp
+Metrics:                                                  ( current / target )
+  resource memory on pods  (as a percentage of request):  82% (6796Ki) / 80%
+Min replicas:                                             1
+Max replicas:                                             10
+Deployment pods:                                          5 current / 5 desired
+Conditions:
+  Type            Status  Reason              Message
+  ----            ------  ------              -------
+  AbleToScale     True    ReadyForNewScale    recommended size matches current size
+  ScalingActive   True    ValidMetricFound    the HPA was able to successfully calculate a replica count from memory resource utilization (percentage of request)
+  ScalingLimited  False   DesiredWithinRange  the desired count is within the acceptable range
+Events:
+  Type     Reason                        Age                  From                       Message
+  ----     ------                        ----                 ----                       -------
+  Warning  FailedGetResourceMetric       6m38s (x8 over 22m)  horizontal-pod-autoscaler  failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+  Warning  FailedComputeMetricsReplicas  6m38s (x8 over 22m)  horizontal-pod-autoscaler  invalid metrics (1 invalid out of 1), first error is: failed to get memory resource metric value: failed to get memory utilization: unable to get metrics for resource memory: no metrics returned from resource metrics API
+  Normal   SuccessfulRescale             5m23s                horizontal-pod-autoscaler  New size: 2; reason: memory resource utilization (percentage of request) above target
+  Normal   SuccessfulRescale             4m23s                horizontal-pod-autoscaler  New size: 3; reason: memory resource utilization (percentage of request) above target
+  Normal   SuccessfulRescale             2m23s                horizontal-pod-autoscaler  New size: 5; reason: memory resource utilization (percentage of request) above target
+--- deployment events ---
+Events:
+  Type    Reason             Age    From                   Message
+  ----    ------             ----   ----                   -------
+  Normal  ScalingReplicaSet  22m    deployment-controller  Scaled up replica set scaletestapp-5f4f867db7 from 0 to 1
+  Normal  ScalingReplicaSet  7m59s  deployment-controller  Scaled up replica set scaletestapp-786c86645f from 0 to 1
+  Normal  ScalingReplicaSet  7m29s  deployment-controller  Scaled down replica set scaletestapp-5f4f867db7 from 1 to 0
+  Normal  ScalingReplicaSet  5m23s  deployment-controller  Scaled up replica set scaletestapp-786c86645f from 1 to 2
+  Normal  ScalingReplicaSet  4m23s  deployment-controller  Scaled up replica set scaletestapp-786c86645f from 2 to 3
+  Normal  ScalingReplicaSet  2m23s  deployment-controller  Scaled up replica set scaletestapp-786c86645f from 3 to 5
+--- rs ---
+NAME                      DESIRED   CURRENT   READY   AGE
+scaletestapp-5f4f867db7   0         0         0       22m
+scaletestapp-786c86645f   5         5         5       7m59s

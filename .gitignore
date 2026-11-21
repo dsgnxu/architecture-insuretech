@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+!.env.example
+
+# Locust / load testing
+.locust/
+*.log
+
+# Kubernetes / Minikube
+*.kubeconfig
+.kube/
+minikube-*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Secrets & local config
+*.pem
+*.key
+secrets/
+credentials/
+*.secret.yaml
+*-secret.yaml
+
+# Coverage / test / cache
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.cache/
+*.cover
+
+# Archives / temp
+*.tar.gz
+*.tgz
+*.zip
+tmp/
+temp/
+*.tmp
+
+# Local draw.io icon libraries (not for submission)
+Task1/Yandex-Cloud-*.xml
+Task1/Yandex_Cloud_*.xml

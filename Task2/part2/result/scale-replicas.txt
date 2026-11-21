@@ -1,0 +1,53 @@
+=== RPS HPA EVIDENCE 2026-11-13T06:29:38Z ===
+NAME           READY   UP-TO-DATE   AVAILABLE   AGE
+scaletestapp   10/10   10           10          32m
+NAME                            READY   STATUS    RESTARTS   AGE     IP            NODE       NOMINATED NODE   READINESS GATES
+scaletestapp-786c86645f-2zhcg   1/1     Running   0          2m27s   10.244.0.52   minikube   <none>           <none>
+scaletestapp-786c86645f-8m5st   1/1     Running   0          2m27s   10.244.0.51   minikube   <none>           <none>
+scaletestapp-786c86645f-bntfk   1/1     Running   0          2m27s   10.244.0.53   minikube   <none>           <none>
+scaletestapp-786c86645f-dzcbs   1/1     Running   0          2m12s   10.244.0.56   minikube   <none>           <none>
+scaletestapp-786c86645f-gtjm7   1/1     Running   0          117s    10.244.0.58   minikube   <none>           <none>
+scaletestapp-786c86645f-lcnfw   1/1     Running   0          2m12s   10.244.0.54   minikube   <none>           <none>
+scaletestapp-786c86645f-lnt2x   1/1     Running   0          17m     10.244.0.39   minikube   <none>           <none>
+scaletestapp-786c86645f-q5vg7   1/1     Running   0          2m12s   10.244.0.57   minikube   <none>           <none>
+scaletestapp-786c86645f-qz5zv   1/1     Running   0          2m12s   10.244.0.55   minikube   <none>           <none>
+scaletestapp-786c86645f-xk68q   1/1     Running   0          117s    10.244.0.59   minikube   <none>           <none>
+NAME               REFERENCE                 TARGETS      MINPODS   MAXPODS   REPLICAS   AGE
+scaletestapp-rps   Deployment/scaletestapp   230773m/10   1         10        10         3m12s
+Name:                                  scaletestapp-rps
+Namespace:                             default
+Labels:                                <none>
+Annotations:                           <none>
+CreationTimestamp:                     Fri, 13 Nov 2026 09:26:26 +0300
+Reference:                             Deployment/scaletestapp
+Metrics:                               ( current / target )
+  "http_requests_per_second" on pods:  230773m / 10
+Min replicas:                          1
+Max replicas:                          10
+Deployment pods:                       10 current / 10 desired
+Conditions:
+  Type            Status  Reason            Message
+  ----            ------  ------            -------
+  AbleToScale     True    ReadyForNewScale  recommended size matches current size
+  ScalingActive   True    ValidMetricFound  the HPA was able to successfully calculate a replica count from pods metric http_requests_per_second
+  ScalingLimited  True    TooManyReplicas   the desired replica count is more than the maximum replica count
+Events:
+  Type    Reason             Age    From                       Message
+  ----    ------             ----   ----                       -------
+  Normal  SuccessfulRescale  2m27s  horizontal-pod-autoscaler  New size: 4; reason: pods metric http_requests_per_second above target
+  Normal  SuccessfulRescale  2m12s  horizontal-pod-autoscaler  New size: 8; reason: pods metric http_requests_per_second above target
+  Normal  SuccessfulRescale  117s   horizontal-pod-autoscaler  New size: 10; reason: pods metric http_requests_per_second above target
+--- deployment events ---
+Events:
+  Type    Reason             Age    From                   Message
+  ----    ------             ----   ----                   -------
+  Normal  ScalingReplicaSet  32m    deployment-controller  Scaled up replica set scaletestapp-5f4f867db7 from 0 to 1
+  Normal  ScalingReplicaSet  17m    deployment-controller  Scaled up replica set scaletestapp-786c86645f from 0 to 1
+  Normal  ScalingReplicaSet  16m    deployment-controller  Scaled down replica set scaletestapp-5f4f867db7 from 1 to 0
+  Normal  ScalingReplicaSet  14m    deployment-controller  Scaled up replica set scaletestapp-786c86645f from 1 to 2
+  Normal  ScalingReplicaSet  13m    deployment-controller  Scaled up replica set scaletestapp-786c86645f from 2 to 3
+  Normal  ScalingReplicaSet  11m    deployment-controller  Scaled up replica set scaletestapp-786c86645f from 3 to 5
+  Normal  ScalingReplicaSet  9m5s   deployment-controller  Scaled down replica set scaletestapp-786c86645f from 5 to 1
+  Normal  ScalingReplicaSet  2m27s  deployment-controller  Scaled up replica set scaletestapp-786c86645f from 1 to 4
+  Normal  ScalingReplicaSet  2m12s  deployment-controller  Scaled up replica set scaletestapp-786c86645f from 4 to 8
+  Normal  ScalingReplicaSet  117s   deployment-controller  Scaled up replica set scaletestapp-786c86645f from 8 to 10

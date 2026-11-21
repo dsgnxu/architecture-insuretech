@@ -1,0 +1,261 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="insuretech-tobe" name="InureTech_технологическая архитектура_to-be">
+    <mxGraphModel dx="610" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1140" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1A1A1A;fontFamily=Helvetica;" value="InureTech — технологическая архитектура (to-be) · 99,9% · RTO ≤ 45 мин · RPO ≤ 15 мин" vertex="1">
+          <mxGeometry height="28" width="720" x="40" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="user-icon" parent="1" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTYiIGZpbGw9IiM1MjgyRkYiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxMi4yIiByPSI1LjIiIGZpbGw9IiNmZmYiLz4KPHBhdGggZD0iTTcuMiAyNS42YzEuNi00LjQgNC44LTYuNCA4LjgtNi40czcuMiAyIDguOCA2LjRDMjIuNCAyOC4yIDE5LjQgMzAgMTYgMzBzLTYuNC0xLjgtOC44LTQuNHoiIGZpbGw9IiNmZmYiLz4KPC9zdmc+;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="162" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="user-lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;fontSize=11;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Браузер пользователя" vertex="1">
+          <mxGeometry height="20" width="130" x="250" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="partner-icon" parent="1" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTYiIGZpbGw9IiM1MjgyRkYiLz4KPHJlY3QgeD0iOC41IiB5PSIxMSIgd2lkdGg9IjE1IiBoZWlnaHQ9IjEyIiByeD0iMiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNMTEgMTEgVjkuMiBBNSA1IDAgMCAxIDIxIDkuMiBWMTEiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjgiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNi41IiByPSIyIiBmaWxsPSIjNTI4MkZGIi8+Cjwvc3ZnPg==;" value="" vertex="1">
+          <mxGeometry height="36" width="36" x="562" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="partner-lbl" parent="1" style="text;html=1;align=center;verticalAlign=top;fontSize=11;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Системы партнёров B2B" vertex="1">
+          <mxGeometry height="20" width="134" x="633" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="az1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDFF;strokeColor=none;arcSize=12;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="538" width="440" x="40" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="az1-l" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#3D4F73;fontFamily=Helvetica;" value="Зона доступности 1  ·  ru-central1-a  ·  ACTIVE" vertex="1">
+          <mxGeometry height="22" width="400" x="56" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;" value="" vertex="1">
+          <mxGeometry height="250" width="408" x="56" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s1-icon" parent="1" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMFYwQzI0LjgzNjYgMCAzMiA3LjE2MzQ0IDMyIDE2VjE2QzMyIDI0LjgzNjYgMjQuODM2NiAzMiAxNiAzMlYzMkM3LjE2MzQ0IDMyIDAgMjQuODM2NiAwIDE2VjE2WiIgZmlsbD0iIzUyODJGRiIvPiYjeGE7PHBhdGggZD0iTTExLjk5NSAyNEw3LjAwMDk4IDE3LjczOEw4Ljc4MTk4IDkuOTI3TDE2IDYuNDUzTDIzLjIxOCA5LjkyOEwyNC45OTkgMTcuNzM5TDIwLjAwNSAyNEgxMS45OTVaTTIwIDEzLjE5NkwxNS45OTkgMTAuODk5TDEyIDEzLjE5NlYxOC4xTDE2IDIwLjQwMUwyMCAxOC4xVjEzLjE5NlpNMTguNzggMTMuODk2SDE4Ljc4N0wxNiAxNS40OTlMMTMuMjE0IDEzLjg5NUgxMy4yMTlMMTUuOTk5IDEyLjI5OUwxOC43OCAxMy44OTZaIiBmaWxsPSJ3aGl0ZSIvPiYjeGE7PC9zdmc+;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="68" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s1-l" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Kubernetes cluster 1&#xa;независимый Managed K8s" vertex="1">
+          <mxGeometry height="36" width="220" x="102" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="ing1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B6B;strokeWidth=1.2;arcSize=8;fontSize=11;fontColor=#1A1A1A;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="Ingress / NGINX&#xa;HC /healthz&#xa;HC /readyz" vertex="1">
+          <mxGeometry height="72" width="130" x="68" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="ns1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B6B;strokeWidth=1.2;arcSize=8;fontSize=11;fontColor=#1A1A1A;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="InsureTech namespace&#xa;&#xa;core-app  ·  client-info&#xa;ins-product-aggregator&#xa;ins-comp-settlement&#xa;&#xa;HPA + Cluster Autoscaler&#xa;probes: /healthz · /readyz" vertex="1">
+          <mxGeometry height="112" width="238" x="210" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="vm1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;" value="" vertex="1">
+          <mxGeometry height="204" width="408" x="56" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1-icon" parent="1" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMFYwQzI0LjgzNjYgMCAzMiA3LjE2MzQ0IDMyIDE2VjE2QzMyIDI0LjgzNjYgMjQuODM2NiAzMiAxNiAzMlYzMkM3LjE2MzQ0IDMyIDAgMjQuODM2NiAwIDE2VjE2WiIgZmlsbD0iIzUyODJGRiIvPiYjeGE7PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMyA4SDE4QzIxLjMgOCAyNCAxMC43IDI0IDE0VjI0SDIwVjIwSDIyVjE5SDE4LjZDMTUuNSAxOSAxMyAxNi41IDEzIDEzLjRWOFpNMTkgMTdIMjFWMTVIMTlWMTdaTTEyIDkuMDk5OThWMTMuNEMxMiAxNi44IDE0LjYgMTkuNyAxOCAyMC4xVjIwLjZDMTggMjIgMTUuOCAyMy4xIDEzIDIzLjFDMTAuMiAyMy4xIDggMjIgOCAyMC42VjExLjZDOCAxMC4zIDkuNyA5LjI5OTk4IDEyIDkuMDk5OThaIiBmaWxsPSJ3aGl0ZSIvPiYjeGE7PC9zdmc+;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="68" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="vm1-l" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Managed PostgreSQL  ·  PRIMARY&#xa;(вместо одиночной VM 1)" vertex="1">
+          <mxGeometry height="36" width="250" x="102" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="pg1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B6B;strokeWidth=1.2;arcSize=8;fontSize=11;fontColor=#1A1A1A;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="PostgreSQL (master)&#xa;Patroni · write&#xa;схемы сервисов" vertex="1">
+          <mxGeometry height="62" width="170" x="68" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="bak-note1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E0;strokeColor=#E0A100;align=left;verticalAlign=middle;fontSize=11;spacingLeft=10;fontFamily=Helvetica;fontColor=#1A1A1A;" value="WAL + snapshot ≤ 15 мин&#xa;→ Object Storage&#xa;3d · RPO ≤ 15 мин" vertex="1">
+          <mxGeometry height="62" width="196" x="252" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="az2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8EDFF;strokeColor=none;arcSize=12;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="538" width="440" x="500" y="372" as="geometry" />
+        </mxCell>
+        <mxCell id="az2-l" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#3D4F73;fontFamily=Helvetica;" value="Зона доступности 2  ·  ru-central1-b  ·  ACTIVE" vertex="1">
+          <mxGeometry height="22" width="400" x="516" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;" value="" vertex="1">
+          <mxGeometry height="250" width="408" x="516" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s2-icon" parent="1" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMFYwQzI0LjgzNjYgMCAzMiA3LjE2MzQ0IDMyIDE2VjE2QzMyIDI0LjgzNjYgMjQuODM2NiAzMiAxNiAzMlYzMkM3LjE2MzQ0IDMyIDAgMjQuODM2NiAwIDE2VjE2WiIgZmlsbD0iIzUyODJGRiIvPiYjeGE7PHBhdGggZD0iTTExLjk5NSAyNEw3LjAwMDk4IDE3LjczOEw4Ljc4MTk4IDkuOTI3TDE2IDYuNDUzTDIzLjIxOCA5LjkyOEwyNC45OTkgMTcuNzM5TDIwLjAwNSAyNEgxMS45OTVaTTIwIDEzLjE5NkwxNS45OTkgMTAuODk5TDEyIDEzLjE5NlYxOC4xTDE2IDIwLjQwMUwyMCAxOC4xVjEzLjE5NlpNMTguNzggMTMuODk2SDE4Ljc4N0wxNiAxNS40OTlMMTMuMjE0IDEzLjg5NUgxMy4yMTlMMTUuOTk5IDEyLjI5OUwxOC43OCAxMy44OTZaIiBmaWxsPSJ3aGl0ZSIvPiYjeGE7PC9zdmc+;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="528" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="k8s2-l" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Kubernetes cluster 2&#xa;независимый Managed K8s" vertex="1">
+          <mxGeometry height="36" width="220" x="562" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="ing2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B6B;strokeWidth=1.2;arcSize=8;fontSize=11;fontColor=#1A1A1A;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="Ingress / NGINX&#xa;HC /healthz&#xa;HC /readyz" vertex="1">
+          <mxGeometry height="72" width="130" x="532" y="568" as="geometry" />
+        </mxCell>
+        <mxCell id="ns2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B6B;strokeWidth=1.2;arcSize=8;fontSize=11;fontColor=#1A1A1A;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="InsureTech namespace&#xa;&#xa;core-app  ·  client-info&#xa;ins-product-aggregator&#xa;ins-comp-settlement&#xa;&#xa;HPA + Cluster Autoscaler&#xa;probes: /healthz · /readyz" vertex="1">
+          <mxGeometry height="112" width="238" x="670" y="532" as="geometry" />
+        </mxCell>
+        <mxCell id="vm2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;" value="" vertex="1">
+          <mxGeometry height="204" width="408" x="516" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2-icon" parent="1" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMFYwQzI0LjgzNjYgMCAzMiA3LjE2MzQ0IDMyIDE2VjE2QzMyIDI0LjgzNjYgMjQuODM2NiAzMiAxNiAzMlYzMkM3LjE2MzQ0IDMyIDAgMjQuODM2NiAwIDE2VjE2WiIgZmlsbD0iIzUyODJGRiIvPiYjeGE7PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMyA4SDE4QzIxLjMgOCAyNCAxMC43IDI0IDE0VjI0SDIwVjIwSDIyVjE5SDE4LjZDMTUuNSAxOSAxMyAxNi41IDEzIDEzLjRWOFpNMTkgMTdIMjFWMTVIMTlWMTdaTTEyIDkuMDk5OThWMTMuNEMxMiAxNi44IDE0LjYgMTkuNyAxOCAyMC4xVjIwLjZDMTggMjIgMTUuOCAyMy4xIDEzIDIzLjFDMTAuMiAyMy4xIDggMjIgOCAyMC42VjExLjZDOCAxMC4zIDkuNyA5LjI5OTk4IDEyIDkuMDk5OThaIiBmaWxsPSJ3aGl0ZSIvPiYjeGE7PC9zdmc+;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="528" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="vm2-l" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=11;fontStyle=1;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Managed PostgreSQL  ·  SYNC REPLICA" vertex="1">
+          <mxGeometry height="36" width="280" x="562" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="pg2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#FF6B6B;strokeWidth=1.2;arcSize=8;fontSize=11;fontColor=#1A1A1A;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="PostgreSQL (sync replica)&#xa;Patroni · promote&#xa;RPO ≈ 0" vertex="1">
+          <mxGeometry height="62" width="186" x="528" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="read2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E0;strokeColor=#E0A100;align=left;verticalAlign=middle;fontSize=11;spacingLeft=10;fontFamily=Helvetica;fontColor=#1A1A1A;" value="reads → replica&#xa;writes → primary (AZ1)" vertex="1">
+          <mxGeometry height="52" width="180" x="736" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="cbox" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAFBFD;strokeColor=#C5CDD8;strokeWidth=1.4;arcSize=8;" value="" vertex="1">
+          <mxGeometry height="560" width="400" x="960" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ct" parent="1" style="text;html=1;fontStyle=1;fontSize=13;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Комментарии" vertex="1">
+          <mxGeometry height="22" width="368" x="976" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;align=left;verticalAlign=top;fontSize=10;spacingLeft=10;spacingTop=6;fontFamily=Helvetica;fontColor=#1A1A1A;" value="&lt;b&gt;1. Масштабирование&lt;/b&gt;&lt;br&gt;Выбрано &lt;b&gt;горизонтальное&lt;/b&gt; (HPA + Cluster Autoscaler). Вертикальное — запас нод/БД. Доп. AZ: да (2 зоны) → доступность &lt;b&gt;99,9%&lt;/b&gt;." vertex="1">
+          <mxGeometry height="52" width="368" x="976" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="c3a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;align=left;verticalAlign=top;fontSize=10;spacingLeft=10;spacingTop=6;fontFamily=Helvetica;fontColor=#1A1A1A;" value="&lt;b&gt;2. Kubernetes: независимые кластеры&lt;/b&gt;&lt;br&gt;Два отдельных Managed Kubernetes (cluster 1 в AZ1, cluster 2 в AZ2), &lt;b&gt;не один растянутый&lt;/b&gt;.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="368" x="976" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c3b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;align=left;verticalAlign=top;fontSize=10;spacingLeft=10;spacingTop=6;fontFamily=Helvetica;fontColor=#1A1A1A;" value="&lt;b&gt;3. Балансировка + Health checks&lt;/b&gt;&lt;br&gt;Клиент → Cloud DNS → Cloud CDN (статика React из Object Storage) и ALB (динамика B2C/B2B) → Ingress кластера → Service → Pod." vertex="1">
+          <mxGeometry height="62" width="368" x="976" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="c3c" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;align=left;verticalAlign=top;fontSize=10;spacingLeft=10;spacingTop=6;fontFamily=Helvetica;fontColor=#1A1A1A;" value="&lt;b&gt;4. Failover&lt;/b&gt;&lt;br&gt;Active-Active на уровне приложений: оба AZ в пуле ALB. Баннер над зонами. DNS failover (TTL ≤ 60 с) — запасной контур." vertex="1">
+          <mxGeometry height="62" width="368" x="976" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="c3d" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;align=left;verticalAlign=top;fontSize=10;spacingLeft=10;spacingTop=6;fontFamily=Helvetica;fontColor=#1A1A1A;" value="&lt;b&gt;4. База данных&lt;/b&gt;&lt;br&gt;Managed PostgreSQL HA, фреймворк кластера — &lt;b&gt;Patroni&lt;/b&gt;. Primary (AZ1) + synchronous replica (AZ2): RPO ≈ 0. Continuous WAL и snapshot ≤ 15 мин → Object Storage, PITR ≥ 7 дней. Auto-promote replica; restore 50 GB укладывается в RTO 45 мин." vertex="1">
+          <mxGeometry height="96" width="368" x="976" y="396" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u-dns" edge="1" parent="1" source="user-icon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#5282FF;strokeWidth=1.2;fontSize=10;fontColor=#3D4F73;fontStyle=1;fontFamily=Helvetica;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="dns-card">
+          <mxGeometry relative="1" x="0.0023" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="98" />
+              <mxPoint x="480" y="148" />
+              <mxPoint x="585" y="148" />
+            </Array>
+            <mxPoint x="355" y="146" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-u-cdn" edge="1" parent="1" source="user-icon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#5282FF;strokeWidth=1.2;fontSize=10;fontColor=#3D4F73;fontStyle=1;fontFamily=Helvetica;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="cdn-card">
+          <mxGeometry relative="1" x="-0.6063" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="98" />
+              <mxPoint x="480" y="148" />
+              <mxPoint x="369" y="148" />
+            </Array>
+            <mxPoint x="318" y="112" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-p-alb" edge="1" parent="1" source="partner-icon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#5282FF;strokeWidth=1.2;fontSize=10;fontColor=#3D4F73;fontStyle=1;fontFamily=Helvetica;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="alb-card">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="146" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-dns-alb" edge="1" parent="1" source="dns-card" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#5282FF;strokeWidth=1.2;fontSize=10;fontColor=#3D4F73;fontStyle=1;fontFamily=Helvetica;" target="alb-card">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-cdn-s3" edge="1" parent="1" source="cdn-card" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#7A8494;strokeWidth=1;dashed=1;dashPattern=6 4;fontSize=10;fontColor=#5F6B7A;fontFamily=Helvetica;" target="s3-card" value="статика">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-alb-ing1" edge="1" parent="1" source="alb-card" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#FF6B6B;strokeWidth=1.4;dashed=1;dashPattern=6 4;fontSize=10;fontColor=#C62828;fontStyle=1;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ing1" value="HC GET /healthz">
+          <mxGeometry relative="1" x="0.666" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="825" y="320" />
+              <mxPoint x="310" y="320" />
+              <mxPoint x="310" y="500" />
+              <mxPoint x="133" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-alb-ing2" edge="1" parent="1" source="alb-card" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#FF6B6B;strokeWidth=1.4;dashed=1;dashPattern=6 4;fontSize=10;fontColor=#C62828;fontStyle=1;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ing2" value="HC GET /healthz">
+          <mxGeometry relative="1" x="0.3473" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="825" y="500" />
+              <mxPoint x="597" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-ns1-pg" edge="1" parent="1" source="ns1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#E07A00;strokeWidth=1.4;fontSize=10;fontColor=#E07A00;fontStyle=1;fontFamily=Helvetica;" target="pg1" value="TCP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="329" y="740" />
+              <mxPoint x="153" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-ns2-pg" edge="1" parent="1" source="ns2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#E07A00;strokeWidth=1.4;fontSize=10;fontColor=#E07A00;fontStyle=1;fontFamily=Helvetica;" target="pg2" value="TCP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="789" y="730" />
+              <mxPoint x="621" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-pg-sync" edge="1" parent="1" source="pg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;startArrow=classic;endFill=1;startFill=1;strokeColor=#E07A00;strokeWidth=1.6;fontSize=10;fontColor=#E07A00;fontStyle=1;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="pg2" value="Patroni  ·  sync WAL / quorum">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="153" y="857" />
+              <mxPoint x="621" y="857" />
+            </Array>
+            <mxPoint x="153" y="809" as="sourcePoint" />
+            <mxPoint x="621" y="809" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-pg-bak" edge="1" parent="1" source="pg1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#7A8494;strokeWidth=1;dashed=1;dashPattern=6 4;fontSize=10;fontColor=#5F6B7A;fontFamily=Helvetica;" target="backup-card">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DaK86Hf-W8KfxJvz4Z2V-3" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="96" width="190" x="274" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn-card" parent="DaK86Hf-W8KfxJvz4Z2V-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#1A1A1A;" value="" vertex="1">
+          <mxGeometry height="96" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn-icon" parent="DaK86Hf-W8KfxJvz4Z2V-3" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMEMyNC44MzY2IDAgMzIgNy4xNjM0NCAzMiAxNkMzMiAyNC44MzY2IDI0LjgzNjYgMzIgMTYgMzJDNy4xNjM0NCAzMiAwIDI0LjgzNjYgMCAxNloiIGZpbGw9IiM1MjgyRkYiLz4mI3hhOzxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTIuMDA5OSAxN0gxOC45OTE5QzE4Ljg2MTkgMjEuMDY4IDE3LjE4MTkgMjQuMDAxIDE1LjUwMTkgMjQuMDAxQzEzLjgyNDkgMjQuMDAxIDEyLjEzODkgMjEuMDgxIDEyLjAwODkgMTcuMDAxTDEyLjAwOTkgMTdaTTguMDEyOTQgMTdIMTEuMDA4OUMxMS4wOTA5IDE5LjYyNyAxMS44MDg5IDIyLjA4MSAxMi45NjI5IDIzLjU2MUMxMS41OTAyIDIzLjA2NiAxMC4zOTEyIDIyLjE4MjEgOS41MTIyNyAyMS4wMTcyQzguNjMzMzEgMTkuODUyNCA4LjExMjM1IDE4LjQ1NjkgOC4wMTI5NCAxNy4wMDFWMTdaTTE5Ljk5MTkgMTdIMjIuOTgxOUMyMi43ODE5IDIwLjAyNyAyMC43Nzk5IDIyLjU2MSAxOC4wMzk5IDIzLjU2MUMxOS4xOTI5IDIyLjA2OCAxOS45MDk5IDE5LjYwMSAxOS45OTE5IDE3LjAwMVYxN1pNMTIuOTYxOSA5LjQzOTAyQzExLjgwNjkgMTAuOTE5IDExLjA5MDkgMTMuMzg2IDExLjAwODkgMTZIOC4wMTI5NEM4LjExMDE2IDE0LjU0MzQgOC42MzAyOCAxMy4xNDY4IDkuNTA5NTMgMTEuOTgxNEMxMC4zODg4IDEwLjgxNTkgMTEuNTg5IDkuOTMyNCAxMi45NjI5IDkuNDM5MDJIMTIuOTYxOVpNMTUuNDc5OSA4Ljk5OTAySDE1LjUyNjlDMTUuNjY3OSA4Ljk5OTAyIDE1LjgxMDkgOS4wMTIwMiAxNS45NTE5IDkuMDY2MDJDMTUuMzI4MyA5LjkxNjMyIDE0Ljk5NDYgMTAuOTQ0NiAxNC45OTk5IDExLjk5OUMxNC45OTk5IDEzLjYyNiAxNS43ODQ5IDE1LjA3OSAxNi45OTk5IDE2SDEyLjAwOTlDMTIuMTM4OSAxMS45MiAxMy44MTY5IDguOTk5MDIgMTUuNDc5OSA4Ljk5OTAyWk0xNS45OTk5IDExLjk5OUMxNS45OTk5IDkuNzg2MDIgMTcuNzkxOSA3Ljk5OTAyIDE5Ljk5OTkgNy45OTkwMkMyMi4yMDc5IDcuOTk5MDIgMjMuOTk5OSA5Ljc4NjAyIDIzLjk5OTkgMTEuOTk5QzIzLjk5OTkgMTQuMiAyMi4yMDc5IDE2IDE5Ljk5OTkgMTZDMTcuNzkxOSAxNiAxNS45OTk5IDE0LjIgMTUuOTk5OSAxMlYxMS45OTlaTTE5Ljg1MjkgMTMuMTczTDIxLjg1MjkgMTEuMTczQzIxLjk0NjcgMTEuMDc5MyAyMS45OTkzIDEwLjk1MjEgMjEuOTk5MyAxMC44MTk1QzIxLjk5OTMgMTAuNjg2OSAyMS45NDY3IDEwLjU1OTggMjEuODUyOSAxMC40NjZDMjEuODA3IDEwLjQxODYgMjEuNzUyIDEwLjM4MDkgMjEuNjkxMSAxMC4zNTUyQzIxLjYzMDMgMTAuMzI5NCAyMS41NjUgMTAuMzE2MSAyMS40OTg5IDEwLjMxNjFDMjEuNDMyOSAxMC4zMTYxIDIxLjM2NzUgMTAuMzI5NCAyMS4zMDY3IDEwLjM1NTJDMjEuMjQ1OSAxMC4zODA5IDIxLjE5MDkgMTAuNDE4NiAyMS4xNDQ5IDEwLjQ2NkwxOS40OTk5IDEyLjEwNkwxOC44NTI5IDExLjQ2NkMxOC44MDcgMTEuNDE4NiAxOC43NTIgMTEuMzgwOSAxOC42OTExIDExLjM1NTJDMTguNjMwMyAxMS4zMjk0IDE4LjU2NSAxMS4zMTYxIDE4LjQ5ODkgMTEuMzE2MUMxOC40MzI5IDExLjMxNjEgMTguMzY3NSAxMS4zMjk0IDE4LjMwNjcgMTEuMzU1MkMxOC4yNDU5IDExLjM4MDkgMTguMTkwOSAxMS40MTg2IDE4LjE0NDkgMTEuNDY2QzE4LjA1MTIgMTEuNTU5OCAxNy45OTg1IDExLjY4NjkgMTcuOTk4NSAxMS44MTk1QzE3Ljk5ODUgMTEuOTUyMSAxOC4wNTEyIDEyLjA3OTMgMTguMTQ0OSAxMi4xNzNMMTkuMTQ0OSAxMy4xNzNDMTkuMjQwOCAxMy4yNjMxIDE5LjM2NzQgMTMuMzEzMiAxOS40OTg5IDEzLjMxMzJDMTkuNjMwNSAxMy4zMTMyIDE5Ljc1NzEgMTMuMjYzMSAxOS44NTI5IDEzLjE3M1oiIGZpbGw9IndoaXRlIi8+JiN4YTs8L3N2Zz4=;" value="" vertex="1">
+          <mxGeometry height="32" width="32" x="8" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn" parent="DaK86Hf-W8KfxJvz4Z2V-3" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Cloud CDN&#xa;PoP по РФ · статика&#xa;равная latency" vertex="1">
+          <mxGeometry height="80" width="136" x="46" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DaK86Hf-W8KfxJvz4Z2V-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="96" width="170" x="500" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="dns-card" parent="DaK86Hf-W8KfxJvz4Z2V-4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#1A1A1A;" value="" vertex="1">
+          <mxGeometry height="96" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dns-icon" parent="DaK86Hf-W8KfxJvz4Z2V-4" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAzMiAzMiIgaGVpZ2h0PSIzMiIgd2lkdGg9IjMyIj4mI3hhOzxyZWN0IGZpbGw9IiM1MjgyRkYiIHJ4PSIxNiIgaGVpZ2h0PSIzMiIgd2lkdGg9IjMyIi8+JiN4YTs8cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTggMjAuMDAyVjExSDEwLjE1QzExLjE3NSAxMSAxMS45MDcgMTEuMjI4IDEyLjM0MyAxMS42ODVDMTIuNzgxIDEyLjE0MyAxMyAxMi45MDcgMTMgMTMuOTc4VjE2LjQ5OEMxMy4wMDQgMTcuODUyIDEyLjgxMiAxOC43NzMgMTIuNDI1IDE5LjI2NEMxMi4wNCAxOS43NTQgMTEuMzExIDIwLjAwMSAxMC4yNCAyMC4wMDFMOCAyMC4wMDJaTTE0IDIwLjAwMlYxMUgxNkwxNy42OTIgMTcuNTk3VjExSDE5VjIwLjAwMUgxN0wxNS4zMSAxMy4zMzlWMjAuMDAxTDE0IDIwLjAwMlpNMjAuNDU1IDE5LjQxNUMyMC4xNTIgMTkuMDI0IDIwIDE4LjM4NiAyMCAxNy41MDRWMTcuMTYySDIxLjI4OFYxNy40MjJDMjEuMjgxIDE3Ljg0NCAyMS4zMzggMTguMTYgMjEuNDU4IDE4LjM3QzIxLjU3NiAxOC41ODEgMjEuNzU4IDE4LjY4NiAyMi4wMDEgMTguNjg2QzIyLjEwNzMgMTguNjkxNyAyMi4yMTMgMTguNjY4MSAyMi4zMDY4IDE4LjYxNzhDMjIuNDAwNiAxOC41Njc2IDIyLjQ3ODkgMTguNDkyNiAyMi41MzMgMTguNDAxQzIyLjY1MSAxOC4yMTEgMjIuNzA4IDE3LjkyNSAyMi43MDggMTcuNTQxQzIyLjcwOCAxNy4yNTYgMjIuNjM4IDE3LjAxMSAyMi40OTMgMTYuODAzQzIyLjM1MiAxNi41OTcgMjIuMTA0IDE2LjM3OCAyMS43NDggMTYuMTQ3QzIxLjEyOCAxNS43NDYgMjAuNjkzIDE1LjM1MyAyMC40NDcgMTQuOTYzQzIwLjE5OSAxNC41OCAyMC4wNzUgMTQuMTAzIDIwLjA3NSAxMy41MzNDMjAuMDc1IDEyLjY4NyAyMC4yNDEgMTIuMDUzIDIwLjU3MyAxMS42MzJDMjAuOTA3IDExLjIxMSAyMS40MDcgMTEgMjIuMDc1IDExQzIyLjc2MSAxMSAyMy4yNDUgMTEuMTk2IDIzLjUyOCAxMS41ODhDMjMuNzk1IDExLjk2IDIzLjkyNCAxMi41NTggMjMuOTIxIDEzLjM4NEwyMy45MjMgMTMuNTc2VjEzLjgzNkgyMi42MzVWMTMuNTc2QzIyLjY0MSAxMy4xMTQgMjIuNTk5IDEyLjc4OCAyMi41MDggMTIuNTk3QzIyLjQxOCAxMi40MDggMjIuMjYgMTIuMzEzIDIyLjAzNSAxMi4zMTNDMjEuOTM1NCAxMi4zMDc0IDIxLjgzNjEgMTIuMzI4OCAyMS43NDc3IDEyLjM3NTJDMjEuNjU5MyAxMi40MjE1IDIxLjU4NTEgMTIuNDkwOSAyMS41MzMgMTIuNTc2QzIxLjQyMSAxMi43NTIgMjEuMzY3IDEzLjAxNSAyMS4zNjcgMTMuMzY2QzIxLjM2NyAxMy42MzggMjEuNDMyIDEzLjg3MSAyMS41NjUgMTQuMDY2QzIxLjY5MyAxNC4yNiAyMS45MjMgMTQuNDYyIDIyLjI1MiAxNC42NzJDMjIuODk5IDE1LjA5NCAyMy4zNTIgMTUuNTA1IDIzLjYxMSAxNS45MDVDMjMuODcxIDE2LjMwNiAyNCAxNi43OTcgMjQgMTcuMzhDMjQgMTguMjU0IDIzLjgzMyAxOC45MSAyMy41MDEgMTkuMzQ1QzIzLjE2OCAxOS43ODEgMjIuNjY4IDE5Ljk5OSAyMiAxOS45OTlDMjEuMjcyIDE5Ljk5OSAyMC43NTYgMTkuODA0IDIwLjQ1NSAxOS40MTVaTTExLjEgMTguMjk1QzExLjI3NiAxOC4wNTggMTEuMzY1IDE3LjYwMiAxMS4zNjUgMTYuOTI2VjEzLjk1NEMxMS4zNjUgMTMuMzQ0IDExLjI2NyAxMi45MjUgMTEuMDY4IDEyLjY5NkMxMC44NzEgMTIuNDY2IDEwLjUwOCAxMi4zNTIgOS45OCAxMi4zNTJIOS42MzZWMTguNjQ4SDEwLjA2NkMxMC41NzcgMTguNjQ4IDEwLjkyMyAxOC41MyAxMS4xIDE4LjI5NlYxOC4yOTVaIi8+JiN4YTs8L3N2Zz4=;" value="" vertex="1">
+          <mxGeometry height="32" width="32" x="8" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dns" parent="DaK86Hf-W8KfxJvz4Z2V-4" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Cloud DNS&#xa;TTL ≤ 60 с&#xa;HC адреса → failover" vertex="1">
+          <mxGeometry height="80" width="116" x="46" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DaK86Hf-W8KfxJvz4Z2V-10" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="96" width="200" x="10" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-card" parent="DaK86Hf-W8KfxJvz4Z2V-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#1A1A1A;" value="" vertex="1">
+          <mxGeometry height="96" width="200" as="geometry" />
+        </mxCell>
+        <mxCell id="s3-icon" parent="DaK86Hf-W8KfxJvz4Z2V-10" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMFYwQzI0LjgzNjYgMCAzMiA3LjE2MzQ0IDMyIDE2VjE2QzMyIDI0LjgzNjYgMjQuODM2NiAzMiAxNiAzMlYzMkM3LjE2MzQ0IDMyIDAgMjQuODM2NiAwIDE2VjE2WiIgZmlsbD0iIzUyODJGRiIvPiYjeGE7PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMiA4QzIyIDcuNCAyMS42IDcgMjEgN0gxMUMxMC40IDcgMTAgNy40IDEwIDhWMTBIMjJWOFpNMjMgMTJDMjMgMTEuNCAyMi42IDExIDIyIDExSDEwQzkuNCAxMSA5IDExLjQgOSAxMlYxNEgyM1YxMlpNOSAxNUgyM0MyMy41IDE1IDI0IDE1LjQgMjQgMTZWMjJDMjQgMjIuNiAyMy42IDIzIDIzIDIzSDlDOC40IDIzIDggMjIuNiA4IDIyVjE2QzggMTUuNCA4LjQgMTUgOSAxNVpNMTQgMjBIMThDMTguNSAyMCAxOSAxOS41IDE5IDE5QzE5IDE4LjQgMTguNiAxOCAxOCAxOEgxNEMxMy40IDE4IDEzIDE4LjQgMTMgMTlDMTMgMTkuNiAxMy40IDIwIDE0IDIwWiIgZmlsbD0id2hpdGUiLz4mI3hhOzwvc3ZnPg==;" value="" vertex="1">
+          <mxGeometry height="32" width="32" x="8" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="s3static" parent="DaK86Hf-W8KfxJvz4Z2V-10" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Object Storage&#xa;origin статики для CDN&#xa;HC origin" vertex="1">
+          <mxGeometry height="80" width="146" x="46" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DaK86Hf-W8KfxJvz4Z2V-16" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="112" width="210" x="720" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="alb-card" parent="DaK86Hf-W8KfxJvz4Z2V-16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;strokeWidth=1;arcSize=10;align=center;verticalAlign=middle;fontSize=10;fontFamily=Helvetica;fontColor=#1A1A1A;" value="" vertex="1">
+          <mxGeometry height="112" width="210" as="geometry" />
+        </mxCell>
+        <mxCell id="alb-icon" parent="DaK86Hf-W8KfxJvz4Z2V-16" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0xNiAzMkMyNC44MzY2IDMyIDMyIDI0LjgzNjYgMzIgMTZDMzIgNy4xNjM0NCAyNC44MzY2IDAgMTYgMEM3LjE2MzQ0IDAgMCA3LjE2MzQ0IDAgMTZDMCAyNC44MzY2IDcuMTYzNDQgMzIgMTYgMzJaIiBmaWxsPSIjNTI4MkZGIi8+JiN4YTs8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTIzLjI0NjEgMjRWMjAuMDU1N0wyMS44Nzg3IDIxLjE0NjVMMTkuMjIyOSAxNy43NTU5QzE5LjU5MTUgMTcuMjU3NiAxOS44MDk0IDE2LjY0MSAxOS44MDk0IDE1Ljk3MzZDMTkuODA5NCAxNS44NDY0IDE5LjgwMTUgMTUuNzIxMSAxOS43ODYyIDE1LjU5ODFMMjEuMzgxOCAxNC45NzkxTDIyLjAxMzIgMTYuNjI0MUwyMy45OTk1IDEzLjIzMDVMMjAuMjUyNiAxMi4wMzc2TDIwLjg4IDEzLjY3MjFMMTkuMjkxNyAxNC4yODgzQzE4Ljc1MTkgMTMuNDk0OCAxNy44NDE1IDEyLjk3MzYgMTYuODA5NCAxMi45NzM2QzE2Ljc2NzggMTIuOTczNiAxNi43MjY0IDEyLjk3NDQgMTYuNjg1MiAxMi45NzYxTDE1LjkzNyAxMC43MDgyTDE3LjYyMDUgMTAuMTYxMkwxNC4zMzU0IDhMMTIuOTQ4MSAxMS42NzkzTDE0LjYwNTUgMTEuMTQwOEwxNS4zMzc1IDEzLjM1ODlDMTQuNjI3IDEzLjc1OTcgMTQuMDk2MyAxNC40NDE4IDEzLjg5NjMgMTUuMjUzOUwxMy44OTY2IDE1LjI1MjhMMTEuODcxMiAxNS4yNTI0QzExLjU4NzQgMTQuNDk0MSAxMC44NTYyIDEzLjk1NDMgOS45OTg5IDEzLjk1NDNDOC44OTUyMSAxMy45NTQzIDguMDAwNDkgMTQuODQ5IDguMDAwNDkgMTUuOTUyN0M4LjAwMDQ5IDE3LjA1NjQgOC44OTUyMSAxNy45NTExIDkuOTk4OSAxNy45NTExQzEwLjg1NjQgMTcuOTUxMSAxMS41ODc4IDE3LjQxMSAxMS44NzE0IDE2LjY1MjRMMTMuODg2NiAxNi42NTI4QzE0LjA0MDcgMTcuMzE4OSAxNC40MTY2IDE3Ljg5OTcgMTQuOTMyMyAxOC4zMTM5TDE0LjkzMTQgMTguMzEzM0wxNC4wMjkyIDIwLjA4MTFMMTIuNDczNiAxOS4yODU5TDEzLjI2MzEgMjMuMTM4TDE2Ljg0OCAyMS41MjIxTDE1LjI3NTggMjAuNzE4NEwxNi4xOTggMTguOTExM0wxNi4xOTcgMTguOTExMUMxNi4zOTQ3IDE4Ljk1MjEgMTYuNTk5NiAxOC45NzM2IDE2LjgwOTQgMTguOTczNkMxNy4yOTE2IDE4Ljk3MzYgMTcuNzQ3MiAxOC44NTk4IDE4LjE1MDkgMTguNjU3N0wyMC43ODQyIDIyLjAxOTVMMTkuNDA1NSAyMy4xMTkzTDIzLjI0NjEgMjRaTTE2LjgwOTQgMTQuMzczNkMxNy42OTMxIDE0LjM3MzYgMTguNDA5NCAxNS4wODk5IDE4LjQwOTQgMTUuOTczNkMxOC40MDk0IDE2Ljg1NzMgMTcuNjkzMSAxNy41NzM2IDE2LjgwOTQgMTcuNTczNkMxNS45MjU4IDE3LjU3MzYgMTUuMjA5NCAxNi44NTczIDE1LjIwOTQgMTUuOTczNkMxNS4yMDk0IDE1LjA4OTkgMTUuOTI1OCAxNC4zNzM2IDE2LjgwOTQgMTQuMzczNloiIGZpbGw9IndoaXRlIi8+JiN4YTs8L3N2Zz4=;" value="" vertex="1">
+          <mxGeometry height="26.88" width="26.88" x="6.72" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="alb" parent="DaK86Hf-W8KfxJvz4Z2V-16" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontStyle=1;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Application Load Balancer&#xa;L7 · multi-AZ · Active-Active&#xa;HC GET /healthz&#xa;interval 5 с · unhealthy ×3" vertex="1">
+          <mxGeometry height="100" width="164.64" x="38.64" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="DaK86Hf-W8KfxJvz4Z2V-18" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="120" width="300" x="40" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-card" parent="DaK86Hf-W8KfxJvz4Z2V-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E0;strokeColor=#E0A100;align=left;verticalAlign=middle;fontSize=11;spacingLeft=10;fontFamily=Helvetica;fontColor=#1A1A1A;" value="" vertex="1">
+          <mxGeometry height="120" width="300" as="geometry" />
+        </mxCell>
+        <mxCell id="backup-icon" parent="DaK86Hf-W8KfxJvz4Z2V-18" style="shape=image;html=1;imageAspect=1;aspect=fixed;selectable=1;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIiBmaWxsPSJub25lIj4mI3hhOzxwYXRoIGQ9Ik0wIDE2QzAgNy4xNjM0NCA3LjE2MzQ0IDAgMTYgMFYwQzI0LjgzNjYgMCAzMiA3LjE2MzQ0IDMyIDE2VjE2QzMyIDI0LjgzNjYgMjQuODM2NiAzMiAxNiAzMlYzMkM3LjE2MzQ0IDMyIDAgMjQuODM2NiAwIDE2VjE2WiIgZmlsbD0iIzUyODJGRiIvPiYjeGE7PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMiA4QzIyIDcuNCAyMS42IDcgMjEgN0gxMUMxMC40IDcgMTAgNy40IDEwIDhWMTBIMjJWOFpNMjMgMTJDMjMgMTEuNCAyMi42IDExIDIyIDExSDEwQzkuNCAxMSA5IDExLjQgOSAxMlYxNEgyM1YxMlpNOSAxNUgyM0MyMy41IDE1IDI0IDE1LjQgMjQgMTZWMjJDMjQgMjIuNiAyMy42IDIzIDIzIDIzSDlDOC40IDIzIDggMjIuNiA4IDIyVjE2QzggMTUuNCA4LjQgMTUgOSAxNVpNMTQgMjBIMThDMTguNSAyMCAxOSAxOS41IDE5IDE5QzE5IDE4LjQgMTguNiAxOCAxOCAxOEgxNEMxMy40IDE4IDEzIDE4LjQgMTMgMTlDMTMgMTkuNiAxMy40IDIwIDE0IDIwWiIgZmlsbD0id2hpdGUiLz4mI3hhOzwvc3ZnPg==;" value="" vertex="1">
+          <mxGeometry height="28" width="28" x="12" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="backup" parent="DaK86Hf-W8KfxJvz4Z2V-18" style="text;html=1;align=left;verticalAlign=top;fontSize=11;fontColor=#1A1A1A;fontFamily=Helvetica;" value="Резервное копирование (3d)&#xa;• Continuous WAL + base backup&#xa;• Snapshot ≤ 15 мин → RPO ≤ 15 мин&#xa;• PITR ≥ 7 дней&#xa;• restore-drill 50 GB → RTO ≤ 45 мин" vertex="1">
+          <mxGeometry height="108" width="244" x="48" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DaK86Hf-W8KfxJvz4Z2V-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D5DCE8;align=left;verticalAlign=top;fontSize=10;spacingLeft=10;spacingTop=6;fontFamily=Helvetica;fontColor=#1A1A1A;" value="&lt;b&gt;5. Шардирование&lt;/b&gt;&lt;br&gt;Не применяем. Объём данных ≈ 50 GB — одного Managed PostgreSQL с запасом достаточно. Шардинг добавит сложность (роутинг, ребаланс, кросс-шардовые запросы) без выигрыша по RTO/RPO и latency. Пересмотреть при росте &gt; 500 GB или если появится явный hotspot по ключу." vertex="1">
+          <mxGeometry height="112" width="368" x="976" y="504" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

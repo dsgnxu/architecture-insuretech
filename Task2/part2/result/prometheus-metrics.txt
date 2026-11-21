@@ -1,0 +1,10 @@
+Prometheus evidence for Task2 part 2
+
+Targets:
+  job=scaletestapp health=up pod=scaletestapp-786c86645f-lnt2x url=http://10.244.0.39:8080/metrics
+
+http_requests_total samples:
+  pod=scaletestapp-786c86645f-lnt2x value=24929
+
+sum(rate(http_requests_total[2m])) by (pod):
+  pod=scaletestapp-786c86645f-lnt2x rps=0.2053675
